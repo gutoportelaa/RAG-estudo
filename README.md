@@ -2,6 +2,8 @@
 
 Este projeto implementa um sistema de **RAG (Retrieval-Augmented Generation)** utilizando a API do Google Gemini e a biblioteca LangChain. O objetivo é permitir que uma IA responda perguntas baseadas em documentos de texto privados (PDFs ou TXTs), superando as limitações de conhecimento de treino do modelo.
 
+<img width="2816" height="1536" alt="Fluxograma-RAG" src="https://github.com/user-attachments/assets/bce94b74-6e7f-4e95-8751-32956043c91d" />
+
 ##  Diferenciais deste Projeto
 - **Custo Zero:** Configurado para rodar inteiramente no plano gratuito da API do Google Gemini.
 - **Robustez:** Implementação de lógica de **Retry** (tentativa) e **Batching** (lotes) na criação do banco vetorial para evitar erros de *Rate Limit* (Erro 429) comuns em APIs gratuitas.
