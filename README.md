@@ -25,7 +25,7 @@ Tenha o Python instalado e uma API Key do Google AI Studio.
 Clone o repositório e instale as dependências:
 ```bash
 pip install langchain langchain-community langchain-google-genai langchain-chroma python-dotenv
-
+```
 ### 3. Configuração
 Para garantir que o projeto rode com segurança e conecte-se aos serviços do Google, siga estes passos:
 
