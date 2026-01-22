@@ -1,13 +1,13 @@
-# 🤖 RAG com Gemini e LangChain (Free Tier Friendly)
+# RAG com Gemini e LangChain (Free Tier Friendly)
 
 Este projeto implementa um sistema de **RAG (Retrieval-Augmented Generation)** utilizando a API do Google Gemini e a biblioteca LangChain. O objetivo é permitir que uma IA responda perguntas baseadas em documentos de texto privados (PDFs ou TXTs), superando as limitações de conhecimento de treino do modelo.
 
-## ✨ Diferenciais deste Projeto
+##  Diferenciais deste Projeto
 - **Custo Zero:** Configurado para rodar inteiramente no plano gratuito da API do Google Gemini.
 - **Robustez:** Implementação de lógica de **Retry** (tentativa) e **Batching** (lotes) na criação do banco vetorial para evitar erros de *Rate Limit* (Erro 429) comuns em APIs gratuitas.
 - **Verificação de Relevância:** O bot só responde se encontrar contexto suficiente no banco de dados (score de similaridade).
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - **Python 3.12**
 - **LangChain:** Framework para orquestração de LLMs.
 - **Google Generative AI (Gemini):**
@@ -16,7 +16,7 @@ Este projeto implementa um sistema de **RAG (Retrieval-Augmented Generation)** u
 - **ChromaDB:** Banco de dados vetorial local.
 - **Dotenv:** Gerenciamento de variáveis de ambiente.
 
-## 🚀 Como Rodar
+##  Como Rodar
 
 ### 1. Pré-requisitos
 Tenha o Python instalado e uma API Key do Google AI Studio.
