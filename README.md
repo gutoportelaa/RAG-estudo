@@ -14,7 +14,7 @@ Este projeto implementa um sistema de **RAG (Retrieval-Augmented Generation)** u
 - **LangChain:** Framework para orquestração de LLMs.
 - **Google Generative AI (Gemini):**
   - `models/text-embedding-004`: Para vetorização do texto.
-  - `gemini-1.5-flash` (ou 2.5): Para geração de respostas (Chat).
+  - `gemini-2.5-flash` (ou mais recente): Para geração de respostas (Chat).
 - **ChromaDB:** Banco de dados vetorial local.
 - **Dotenv:** Gerenciamento de variáveis de ambiente.
 
